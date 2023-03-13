@@ -24,13 +24,15 @@ import { ContactosService } from './contactos.service';
 import { AgregarContactoComponent } from './agregar-contacto/agregar-contacto.component';
 import { FormsModule } from '@angular/forms';
 import { EditarContactoComponent } from './editar-contacto/editar-contacto.component';
+// import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
     ListarContactosComponent,
     DialogoConfirmacionComponent,
     AgregarContactoComponent,
-    EditarContactoComponent
+    EditarContactoComponent,
+    // LoginComponent
   ],
   entryComponents: [
     DialogoConfirmacionComponent,
